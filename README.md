@@ -1,5 +1,116 @@
-![image](https://github.com/user-attachments/assets/b26cbe1b-5298-404a-8c94-bc6f1aa9e7a9)
-![image](https://github.com/user-attachments/assets/a6833dce-e550-4451-8e26-f78873cc1b95)
-![image](https://github.com/user-attachments/assets/90cda0d3-8562-4828-a750-95889f47f4a1)
-![image](https://github.com/user-attachments/assets/630ac7f8-e5a6-4c22-9da2-a10448766c48)
-![image](https://github.com/user-attachments/assets/408e223e-173d-40da-b28e-fd5e34973867)
+# 🏠 HouseUpEvKiralama
+
+HouseUpEvKiralama, kullanıcıların kiralık ev ilanlarını görüntüleyebildiği, ilan detaylarını inceleyebildiği ve yönetici paneli üzerinden ilanların yönetilebildiği Laravel tabanlı bir **Ev Kiralama Web Sitesi** projesidir.
+
+Bu proje, modern web teknolojileri kullanılarak geliştirilmiş olup akademik ve gerçek hayat senaryolarına uygun şekilde tasarlanmıştır.
+
+🏠 Ana Sayfa (ilan listesi)
+<img width="1902" height="904" alt="image" src="https://github.com/user-attachments/assets/eb9d5e79-7fc4-4311-b03e-23f92cc20490" />
+
+📄 İlan Detay Sayfası
+<img width="1899" height="905" alt="image" src="https://github.com/user-attachments/assets/75d05ad1-2e13-4950-a7d6-5e3c82bf9a8c" />
+<img width="1904" height="732" alt="image" src="https://github.com/user-attachments/assets/5f587ed3-9e98-4dfc-967f-f29163e6dfc3" />
+<img width="1413" height="745" alt="image" src="https://github.com/user-attachments/assets/f2faad5e-216f-4567-9c1a-0f76078e44da" />
+
+🗂️ Kategori / Filtreleme
+<img width="1902" height="909" alt="image" src="https://github.com/user-attachments/assets/bec93c2b-2095-4209-80fd-fa1c9f0f38df" />
+
+🔐 Admin Paneli
+<img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/ff9b87c6-64f2-47c9-a8c3-7b812da8f218" />
+<img width="1916" height="911" alt="image" src="https://github.com/user-attachments/assets/58265906-abc3-49c1-b69c-d1d18f54f45e" />
+<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/a8f9480d-08fc-4a23-ba1f-f41a7ac7913f" />
+<img width="1919" height="457" alt="image" src="https://github.com/user-attachments/assets/5c405d05-9f8e-4746-a0b6-7866e5480be8" />
+
+---
+
+## 🚀 Özellikler
+
+### 👤 Kullanıcı Tarafı
+- Kiralık ev ilanlarını listeleme
+- İlan detaylarını görüntüleme
+- Kategori bazlı filtreleme
+- Responsive (mobil uyumlu) tasarım
+
+### 🛠️ Yönetici Paneli
+- Ev ilanı ekleme / düzenleme / silme (CRUD)
+- Kategori yönetimi
+- İlan detay yönetimi
+- Görsel yükleme desteği
+
+---
+
+## 🧰 Kullanılan Teknolojiler
+
+- **Backend:** Laravel (PHP)
+- **Frontend:** Blade Template Engine, HTML5, CSS3, Bootstrap
+- **Veritabanı:** MySQL
+- **Sunucu Ortamı:** XAMPP
+- **Versiyon Kontrol:** Git & GitHub
+
+---
+
+⚙️ Kurulum Adımları
+
+1️⃣ Projeyi Klonla
+git clone https://github.com/duygualtunaay/HouseUpEvKiralama.git
+
+2️⃣ Proje Klasörüne Gir
+cd HouseUpEvKiralama
+
+3️⃣ Gerekli Paketleri Yükle
+composer install
+
+4️⃣ Ortam Dosyasını Oluştur
+cp .env.example .env
+
+5️⃣ Uygulama Anahtarını Oluştur
+php artisan key:generate
+
+6️⃣ Veritabanı Ayarları
+.env dosyasında aşağıdaki alanları kendi sistemine göre düzenle:
+DB_DATABASE=veritabani_adi
+DB_USERNAME=root
+DB_PASSWORD=
+
+7️⃣ Veritabanını Oluştur ve Migration Çalıştır
+php artisan migrate
+
+8️⃣ Storage Link Oluştur
+php artisan storage:link
+
+9️⃣ Projeyi Çalıştır
+php artisan serve
+
+Tarayıcıdan:
+http://127.0.0.1:8000
+
+🎓 Proje Amacı
+
+Bu proje;
+
+Laravel MVC yapısını öğrenmek
+
+CRUD işlemlerini uygulamak
+
+Gerçek hayat senaryosuna uygun bir web uygulaması geliştirmek
+amacıyla hazırlanmıştır.
+
+Akademik projeler ve portföy çalışmaları için uygundur.
+
+
+---
+
+## 📂 Proje Dizini (Özet)
+
+```text
+HouseUpEvKiralama
+├── app/
+├── public/
+├── resources/
+├── routes/
+├── database/
+├── .env.example
+├── artisan
+└── composer.json
+
+
