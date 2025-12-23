@@ -49,41 +49,6 @@ Bu proje, modern web teknolojileri kullanılarak geliştirilmiş olup akademik v
 
 ---
 
-⚙️ Kurulum Adımları
-
-1️⃣ Projeyi Klonla
-git clone https://github.com/duygualtunaay/HouseUpEvKiralama.git
-
-2️⃣ Proje Klasörüne Gir
-cd HouseUpEvKiralama
-
-3️⃣ Gerekli Paketleri Yükle
-composer install
-
-4️⃣ Ortam Dosyasını Oluştur
-cp .env.example .env
-
-5️⃣ Uygulama Anahtarını Oluştur
-php artisan key:generate
-
-6️⃣ Veritabanı Ayarları
-.env dosyasında aşağıdaki alanları kendi sistemine göre düzenle:
-DB_DATABASE=veritabani_adi
-DB_USERNAME=root
-DB_PASSWORD=
-
-7️⃣ Veritabanını Oluştur ve Migration Çalıştır
-php artisan migrate
-
-8️⃣ Storage Link Oluştur
-php artisan storage:link
-
-9️⃣ Projeyi Çalıştır
-php artisan serve
-
-Tarayıcıdan:
-http://127.0.0.1:8000
-
 🎓 Proje Amacı
 
 Bu proje;
@@ -96,7 +61,6 @@ Gerçek hayat senaryosuna uygun bir web uygulaması geliştirmek
 amacıyla hazırlanmıştır.
 
 Akademik projeler ve portföy çalışmaları için uygundur.
-
 
 ---
 
